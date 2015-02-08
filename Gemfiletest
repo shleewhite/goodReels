@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+    gem 'rails',					'4.2.0.rc3'
+    gem "open-uri",
+    require "json",
+    require 'sinatra',
+    gem "data_mapper",
+    gem "./database_setup"
+end
